@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="site-container">
+        <header>
+            <div class="header-container flex">
+                <a class="header-logo" href="">
+                    <img src="./img/LOGO.png" alt="LOGO">
+                </a>
+                <div class="header-menu menu">
+                    <div class="menu-icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu-body flex">
+                        <ul class="menu-list flex">
+                            <li><a data-goto=".section-page-1" href="./pages/laboratory.html"
+                                    class="menu-link">Испытательная лаборатория</a>
+                            </li>
+                            <li><a data-goto=".section-page-2" href="./pages/service.html" class="menu-link">Услуги</a>
+                            </li>
+                            <!-- <li><a data-goto=".section-page-3" href="#" class="menu-link">Объекты</a></li> -->
+                            <li><a data-goto=".section-page-4" href="./pages/about.html" class="menu-link">О
+                                    компании</a></li>
+                        </ul>
+                        <a class="contact-tel" href="tel:73472895511">
+                            <img src="./img/phonenumber.png" alt="">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Испытательная <br>
+                        лаборатория</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_2">Комплексное <br> обследование</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_3">Проектирование систем <br>
+                        безопасности</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_4">Поставка <br> оборудования</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_5">Сервисное <br> обслуживание</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item" id="tab_1">
+                        <div class="main-foto">
+                            <img class="main-foto-1" src="./img/mainblockphoto1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_2">
+                        <div class="main-foto">
+                            <img class="main-foto-1" src="./img/5056.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="tabs__item" id="tab_3">
+                        <div class="main-foto">
+                            <img class="main-foto-1" src="./img/Snake_River_(5mb).jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_4">
+                        <div class="main-foto">
+                            <img class="main-foto-1" src="./img/bfoto_ru_4761.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_5">
+                        <div class="main-foto">
+                            <img class="main-foto-1" src="./img/mainblockphoto1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-mobile">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide flex">
+                        <div class="swiper-card-2">
+                            <div class="card-conteiner flex">
+                                <img src="./img/mainblockphoto1.png" alt="">
+                                <div class="btn">
+                                    <a href="">
+                                        Испытательная лаборатория
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex">
+                        <div class="swiper-card-1">
+                            <img src="./img/mainblockphoto1.png" alt="">
+                            <div class="btn">
+                                <a href="">
+                                    Комплексное обследование
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex">
+                        <img src="./img/mainblockphoto1.png" alt="">
+                        <div class="btn">
+                            <a href="">
+                                Проектирование систем безопасности
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex">
+
+                        <img src="./img/mainblockphoto1.png" alt="">
+                        <div class="btn">
+                            <a href="">
+                                Испытательная лаборатория
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex">
+
+                        <img src="./img/mainblockphoto1.png" alt="">
+                        <div class="btn">
+                            <a href="">
+                                Поставка оборудования
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex">
+
+                        <img src="./img/mainblockphoto1.png" alt="">
+                        <div class="btn">
+                            <a href="">
+                                Сервисное обслуживание
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="about-us flex">
+            <div class="about-us-right">
+                <h1 class="name">Группа компаний «Каскад»</h1>
+                <p class="gray">Производство электромонтажных работ</p>
+                <h2>Наша миссия — обеспечивать <br> <span class="red"> надежную защиту </span> жизни и бизнеса наших
+                    клиентов и партнеров</h2>
+            </div>
+            <div class="about-us-left flex">
+                <ul class="about-us-list flex">
+                    <li class="about-us-item flex">
+                        <img class="icon-us" src="/img/icons.png" alt="">
+                        <div>
+                            <h3>Инновационные решения</h3>
+                            <div class="gray2">
+                                Мы применяем новейшие технологии
+                                безопасности
+                            </div>
+                        </div>
+                    </li>
+                    <li class="about-us-item flex">
+                        <img class="icon-us" src="/img/icons2.png" alt="">
+                        <div>
+                            <h3>Команда экспертов <br> с большим опытом </h3>
+                            <div class="gray2">
+                                Наши специалисты имеют богатый опыт работы с системами безопасности
+                            </div>
+                        </div>
+                    </li>
+                    <li class="about-us-item flex">
+                        <img class="icon-us" src="/img/icons3.png" alt="">
+                        <div>
+                            <h3>Быстрое реагирование на угрозы </h3>
+                            <div class="gray2">
+                                Мы оперативно реагируем на угрозы и обеспечиваем максимальную защиту
+                            </div>
+                        </div>
+                    </li>
+                    <li class="about-us-item flex">
+                        <img class="icon-us" src="/img/icons4.png" alt="">
+                        <div>
+                            <h3>Индивидуальный подход к клиентам </h3>
+                            <div class="gray2">
+                                Мы настраиваем системы под потребности каждого клиента
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services-container">
+                <div class="services-header flex">
+                    <h2 class="header-titel">Мы предоставляем</h2>
+                    <a href="/pages/service.html">
+                        <img src="./img/All.png" alt="">
+                    </a>
+                </div>
+                <div class="services-content flex">
+                    <a class="services-content-right" href="./pages/laboratory.html">
+                        <div>
+                            <h3 class="services-content-right-desc">Пожарная испытательная <br> лаборатория</h3>
+                            <img class="services-content-desc-link" src="./img/buttonarrow.png" alt="">
+                        </div>
+                    </a>
+                    <div class="services-content-left">
+                        <div class="services-content-top">
+                            <h3 class="services-content-left-desc">Комплексное <br> обследование <br> объектов</h3>
+                            <a href="#">
+                                <img class="services-content-desc-link" src="./img/buttonarrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="services-content-botom">
+                            <h3 class="services-content-left-desc">Поставка <br> оборудования</h3>
+                            <a href="#">
+                                <img class="services-content-desc-link" src="./img/buttonarrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-tests">
+            <div class="latest-tests-container">
+                <div class="latest-tests-header flex">
+                    <h2 class="header-titel">Последние испытания и проверки</h2>
+                    <a href="#">
+                        <img src="./img/All2.png" alt="">
+                    </a>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="latest-tests-box flex">
+                                <img src="./img/box1.png" alt="">
+                                <div class="latest-tests-box-desc flex">
+                                    <div class="">Эксплуатационные испытания ограждения кровли жилого здания в Клину
+                                    </div>
+                                    <div class="latest-tests-btn">
+                                        <a class="latest-tests-link" href="#">
+                                            <img src="./img/desc.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="latest-tests-box flex">
+                                <img src="./img/box2.png" alt="">
+                                <div class="latest-tests-box-desc flex">
+                                    <div class="">Проверка качества огнезащитной обработки кабельных линий ПС №692
+                                        «Баскаково»
+                                    </div>
+                                    <div class="latest-tests-btn">
+                                        <a class="latest-tests-link" href="#">
+                                            <img src="./img/desc.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="latest-tests-box flex">
+                                <img src="./img/box3.png" alt="">
+                                <div class="latest-tests-box-desc flex">
+                                    <div class="">Проверка работоспособности СОУЭ в детской поликлинике №118 в Москве
+                                    </div>
+                                    <div class="latest-tests-btn">
+                                        <a class="latest-tests-link" href="#">
+                                            <img src="./img/desc.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="news-container">
+                <div class="latest-tests-header flex">
+                    <h2 class="header-titel">Новости</h2>
+                    <a href="#">
+                        <img src="./img/All3.png" alt="">
+                    </a>
+                </div>
+                <div class="swiper-container">
+                    <!-- Slider main container -->
+                    <div class="swiper3">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="swiper3-card">
+                                    <div class="new-box flex">
+                                        <div class="news-date">2 августа 2023</div>
+                                        <div class="news-desc">Группа компаний «Каскад» прошла аккредитацию в ФСА на
+                                            новый срок</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="new-box flex">
+                                    <div class="news-date">14 марта 2023</div>
+                                    <div class="news-desc">Компания привлекает вклады под 20% в рублях и 6% в долларах
+                                        США</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="new-box flex">
+                                    <div class="news-date">14 марта 2023</div>
+                                    <div class="news-desc">Компания привлекает вклады под 20% в рублях и 6% в долларах
+                                        США</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="new-box flex">
+                                    <div class="news-date">25 января 2023</div>
+                                    <div class="news-desc">Санкции США не повлияют на работу компании: все операции
+                                        продолжают
+                                        проводиться в обычном режиме</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="news-box-container flex">
+                    <div class="new-box flex">
+                        <div class="news-date">2 августа 2023</div>
+                        <div class="news-desc">Группа компаний «Каскад» прошла аккредитацию в ФСА на новый срок</div>
+                    </div>
+                    <div class="new-box flex">
+                        <div class="news-date">14 марта 2023</div>
+                        <div class="news-desc">Компания привлекает вклады под 20% в рублях и 6% в долларах США</div>
+                    </div>
+                    <div class="new-box flex">
+                        <div class="news-date">25 января 2023</div>
+                        <div class="news-desc">Санкции США не повлияют на работу компании: все операции продолжают
+                            проводиться в обычном режиме</div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="qustions">
+            <div class="qustions-container">
+                <div class="qustions-header">
+                    <h2 class="header-titel">Часто задаваемые вопросы</h2>
+                </div>
+                <div class="accordion-container flex">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">Как получить лицензию на установку систем безопасности?</div>
+                            <div class="accordion-content">
+                                <p>Наше дело не так однозначно, как может показаться: убеждённость некоторых оппонентов,
+                                    а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для
+                                    модели развития. Значимость этих проблем настолько очевидна, что глубокий уровень
+                                    погружения обеспечивает широкому кругу (специалистов) участие в формировании модели
+                                    развития. Внезапно, представители современных социальных резервов будут превращены в
+                                    посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Section 2</div>
+                            <div class="accordion-content">
+                                <p>Сложно сказать, почему активно развивающиеся страны третьего мира представляют собой
+                                    не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть
+                                    своевременно верифицированы. Противоположная точка зрения подразумевает, что
+                                    независимые государства, вне зависимости от их уровня, должны быть обнародованы.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Section 3</div>
+                            <div class="accordion-content">
+                                <p>Content for section 3...</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Section 4</div>
+                            <div class="accordion-content">
+                                <p>Content for section 4...</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Section 5</div>
+                            <div class="accordion-content">
+                                <p>Content for section 5...</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">Section 6</div>
+                            <div class="accordion-content">
+                                <p>Content for section 6...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content-box flex">
+                    <div class="footer-content flex">
+                        <img class="contact-logo" src="./img/Logofooter.png" alt="LOGO">
+                        <a class="contact-tel" href="tel:73472895511"> +7 347 289-55-11</a>
+                        <a class="contact-mail" href="mailto:hello@kaskad.ru">hello@kaskad.ru</a>
+                        <p class="address">450000, г. Уфа <br> ул. Габдуллы Амантая, д.2</p>
+                    </div>
+                    <div class="footer-content flex">
+                        <h3 class="content-titel">
+                            Информация
+                        </h3>
+                        <p class="content-list"><a href="#">
+                                Орган пожарной <br> сертификации
+                            </a></p>
+                        <p class="content-list"><a href="./pages/laboratory.html">
+                                Испытательная пожарная <br> лаборатория
+                            </a></p>
+                        <p class="content-list"><a href="#">
+                                Новости
+                            </a></p>
+                    </div>
+                    <div class="footer-content flex">
+                        <h3 class="content-titel">
+                            Услуги
+                        </h3>
+                        <p class="content-list"><a href="#">
+                                Сертификация пожарной <br> безопасности
+                            </a></p>
+                        <p class="content-list"><a href="#">
+                                Огневые <br> сертификационные <br> испытания
+                            </a></p>
+                        <p class="content-list"><a href="#">
+                                Проверки пожарной <br> безопасности
+                            </a></p>
+                    </div>
+                    <div class="footer-content flex">
+                        <h3 class="content-titel">
+                            О компании
+                        </h3>
+                        <p class="content-list"><a href="./pages/connact.html">
+                                Контакты
+                            </a></p>
+                        <p class="content-list"><a href="#">
+                                Партнеры
+                            </a></p>
+                    </div>
+                </div>
+                <div class="footer-copyraite flex">
+                    <p>&copy; 2023 OOO «Каскад»</p>
+                    <p><a href="#">Политика обработки персональных данных в ООО «Каскад»</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/tabs.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/acc.js"></script>
+    <script src="./js/burger.js"></script>
+</body>
+
+</html>
